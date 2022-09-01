@@ -1,1 +1,44 @@
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+:root{
+    font-size: 10px;
+}
+/*styling for all bodies*/
+body{
+    font-size: 2.4rem;
+    background-color: grey;
+}
+/*styling for all navbars*/
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    padding: 20px 11em;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+}
+/*all main styling*/
+main{
+    padding: 50px 11em;
+}
+/*all footer styling*/
+footer{
+    width: 95vw;
+    margin-top: 70%;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+}
+/*all header styling*/
