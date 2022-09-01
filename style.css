@@ -45,4 +45,23 @@ footer{
 /*all header styling*/
 div.header{
     font-size: 15rem;
+    padding-bottom: 30px;
+}
+/*home page specific styling*/
+/*styling self-intro portion*/
+.self-intro{
+    display:flex;
+    width: 100%;
+
+}
+.blurb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.self-intro img{
+    width: 50%;
+    object-fit: cover;
 }
