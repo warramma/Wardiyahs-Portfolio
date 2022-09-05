@@ -17,7 +17,7 @@ nav{
     display: flex;
     justify-content: flex-end;
     width: 100vw;
-    padding: 20px 2em;
+    padding: 15px 2em;
     font-size: 2.8rem;
     position: fixed;
     top: 20;
@@ -33,6 +33,13 @@ nav ul li{
 nav a{
     text-decoration: none;
     color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav a:hover{
+    background-color: lightblue;
+    color:rgb(77, 13, 136);
+    box-shadow: 3px 3px inset black;
 }
 /*all main styling*/
 main{
@@ -41,16 +48,20 @@ main{
     display: block;
     margin: 0 auto;
     margin-top: 80px;
-    background-color: rgba(106, 96, 214, 0.5);
+    background-color: rgba(115, 106, 221, 0.5);
     color: rgb(236, 225, 225);
 }
 /*all footer styling*/
 footer{
-    width: 95vw;
-    margin-top: 70%;
-    padding: 50px 20px;
+    width: 100%;
+    padding: 20px 20px;
     display: flex;
     justify-content: center;
+    background-color:rgb(96, 139, 181);
+    color: white;
+}
+footer a{
+    color: white;
 }
 /*all header styling*/
 div.header{
@@ -85,4 +96,26 @@ div.header{
     background-color: lightblue;
     margin: 10px 0;
     border-radius: 10px;
+}
+/*styling button portion of home*/
+.pageBtns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.pageBtns a{
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px 30px;
+    width: 80%;
+    background-color: lightblue;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.pageBtns a:hover{
+    background-color: rgb(192, 152, 225);
+    color: white;
 }
