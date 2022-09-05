@@ -10,7 +10,7 @@
 /*styling for all bodies*/
 body{
     font-size: 2.4rem;
-    background-color: rgb(58, 20, 113);
+    background-color: rgb(37, 20, 113);
 }
 /*styling for all navbars*/
 nav{
@@ -39,7 +39,7 @@ nav a{
 nav a:hover{
     background-color: lightblue;
     color:rgb(77, 13, 136);
-    box-shadow: 3px 3px inset black;
+    box-shadow: 3px 3px inset rgb(255, 255, 255);
 }
 /*all main styling*/
 main{
@@ -57,11 +57,11 @@ footer{
     padding: 20px 20px;
     display: flex;
     justify-content: center;
-    background-color:rgb(96, 139, 181);
-    color: white;
+    background-color:rgb(218, 175, 240);
+    color: rgb(0, 0, 0);
 }
 footer a{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 /*all header styling*/
 div.header{
@@ -96,6 +96,11 @@ div.header{
     background-color: lightblue;
     margin: 10px 0;
     border-radius: 10px;
+    color: rgb(19, 19, 203);
+}
+.resumeBtn:hover{
+    background-color:rgb(199, 162, 230);
+    color: white;
 }
 /*styling button portion of home*/
 .pageBtns{
@@ -113,9 +118,18 @@ div.header{
     background-color: lightblue;
     border-radius: 10px;
     text-align: center;
+    color:rgb(19, 19, 203);
     
 }
 .pageBtns a:hover{
     background-color: rgb(192, 152, 225);
     color: white;
+}/*style socials section on home*/
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socials a{
+    margin: 10px;
 }
