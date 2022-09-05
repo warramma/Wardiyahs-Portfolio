@@ -10,17 +10,18 @@
 /*styling for all bodies*/
 body{
     font-size: 2.4rem;
-    background-color: grey;
+    background-color: rgb(58, 20, 113);
 }
 /*styling for all navbars*/
 nav{
     display: flex;
     justify-content: flex-end;
     width: 100vw;
-    padding: 20px 8.5em;
+    padding: 20px 2em;
     font-size: 2.8rem;
     position: fixed;
     top: 20;
+    background-color:rgb(58, 129, 200);
 }
 nav ul{
     display: flex;
@@ -31,6 +32,7 @@ nav ul li{
 }
 nav a{
     text-decoration: none;
+    color: white;
 }
 /*all main styling*/
 main{
@@ -39,7 +41,8 @@ main{
     display: block;
     margin: 0 auto;
     margin-top: 80px;
-    background-color: rgba(176, 89, 139, 0.5)
+    background-color: rgba(106, 96, 214, 0.5);
+    color: rgb(236, 225, 225);
 }
 /*all footer styling*/
 footer{
@@ -59,16 +62,27 @@ div.header{
 .self-intro{
     display:flex;
     width: 100%;
-
+    justify-content: center;
 }
 .blurb{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 50%;
+    padding: 10px;
 }
 .self-intro img{
-    width: 50%;
+    width: 18vw;
     object-fit: cover;
+    border-radius: 50%;
+    margin: 15px;
+}
+/*style resume button in self intro section*/
+.resumeBtn{
+    text-decoration: none;
+    padding: 15px;
+    background-color: lightblue;
+    margin: 10px 0;
+    border-radius: 10px;
 }
