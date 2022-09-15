@@ -1,7 +1,5 @@
 /*testing area*/
-.display{
-    display: none;
-}
+
 /*.js .display { display:none; };*/
 /*testing area*/
 *{
@@ -167,4 +165,53 @@ div.header{
 }
 .socials a{
     margin: 0 15px;
+}
+/*PROJECT page specific*/
+/*project gallery section specific*/
+.display{
+    display: none;
+}
+div.toggle_button{
+    margin: 20px auto;
+    display: block;
+
+}
+.projectIntro p, .projectJourney p{
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+a.projectGalLink, .siteLink, .projectLink, .projectSkip{
+    color: white;
+    display: block;
+    margin: 20px auto;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    background-color:rgb(58, 129, 200);
+    width: 50%;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+a.projectGalLink:hover, .siteLink:hover, .projectLink:hover, .projectSkip:hover{
+    color: white;
+    background-color:rgb(19, 19, 203);
+}
+.projectGalleryContainer iframe{
+    width: 100%;
+    height: 60vh;
+}
+.projectGalleryContainer{
+    margin: 20px 0;
+}
+.projectGalleryContainer p{
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+.siteLink, .projectLink{
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+
 }
