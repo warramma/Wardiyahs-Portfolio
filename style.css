@@ -1,5 +1,8 @@
 /*testing area*/
-
+.display{
+    display: none;
+}
+/*.js .display { display:none; };*/
 /*testing area*/
 *{
     box-sizing: border-box;
