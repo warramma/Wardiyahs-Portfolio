@@ -1,6 +1,5 @@
 /*testing area*/
 
-/*.js .display { display:none; };*/
 /*testing area*/
 *{
     box-sizing: border-box;
@@ -135,14 +134,14 @@ div.header{
     color: white;
 }
 /*styling button portion of home*/
-.pageBtns{
+.pageBtns {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 20px 0;
 }
-.pageBtns a{
+.pageBtns a, a.pageBtns{
     text-decoration: none;
     margin: 20px;
     padding: 20px 30px;
@@ -153,9 +152,10 @@ div.header{
     color:rgb(19, 19, 203);
     
 }
-.pageBtns a:hover{
+.pageBtns a:hover, a.pageBtns:hover{
     background-color: rgb(192, 152, 225);
     color: white;
+    text-decoration: underline;
 }/*style socials section on home*/
 .socials{
     display: flex;
@@ -214,4 +214,22 @@ a.projectGalLink:hover, .siteLink:hover, .projectLink:hover, .projectSkip:hover{
     text-align: center;
     width: 30%;
 
+}
+/*RESUME*/
+.resumeMain ul li{
+    margin-left: 2em;
+}
+.resumeContent{
+    line-height: 1.75em;
+}
+.resumeMain h1, .resumeMain h2{
+    margin: 15px 0;
+}
+.resumeIntro{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.resumeMain a.pageBtns{
+    margin: 10px auto;
+    width: 30%;
 }
