@@ -16,10 +16,14 @@ html{
 .fa{
     color: white;
 }
-.logo{
+img.logo{
     float: right;
     width: 80px;
     border-radius: 50%;
+}
+a.logo:hover{
+    background-color: transparent;
+    box-shadow: none;
 }
 /*styling for all bodies*/
 body{
@@ -118,7 +122,11 @@ div.header{
     list-style-type: initial;
     margin-left: 2em;
 }
-
+.connectTitle{
+    text-align: center;
+    font-size: 4.8rem;
+    margin-bottom: 10px;
+}
 /*style resume button in self intro section*/
 .resumeBtn{
     text-decoration: none;
