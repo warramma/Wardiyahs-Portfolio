@@ -200,7 +200,6 @@ a.projectGalLink:hover, .siteLink:hover, .projectLink:hover, .projectSkip:hover{
 .projectContent{
     display: flex;
     width: 100%;
-    
 }
 .evenProject .projectContent{
     display: flex;
@@ -214,17 +213,17 @@ a.projectGalLink:hover, .siteLink:hover, .projectLink:hover, .projectSkip:hover{
     border-radius: 10px;
 }
 .projectContent p{
-    padding: 10px;   
+    padding: 10px; 
 }
 .projectTextLinks{
     width: 55%;
 }
 .projectGalleryContainer{
-    margin: 20px 0;
+    margin: 10px 0;
 }
 .projectGalleryContainer p{
     text-indent: 2em;
-    line-height: 1.5em;
+    line-height: 1.2em;
 }
 .siteLink, .projectLink{
     display: block;
@@ -234,6 +233,8 @@ a.projectGalLink:hover, .siteLink:hover, .projectLink:hover, .projectSkip:hover{
     width: 70%;
 
 }
+/*gallery background colors*/
+
 /*RESUME*/
 .resumeMain ul li{
     margin-left: 2em;
