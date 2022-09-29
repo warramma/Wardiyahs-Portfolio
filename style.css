@@ -176,14 +176,7 @@ div.header{
 }
 /*PROJECT page specific*/
 /*project gallery section specific*/
-.display{
-    display: none;
-}
-div.toggle_button{
-    margin: 20px auto;
-    display: block;
-
-}
+#more {display: none;}
 .projectIntro p, .projectJourney p{
     text-indent: 2em;
     line-height: 1.5em;
@@ -204,9 +197,27 @@ a.projectGalLink:hover, .siteLink:hover, .projectLink:hover, .projectSkip:hover{
     color: white;
     background-color:rgb(19, 19, 203);
 }
-.projectGalleryContainer iframe{
+.projectContent{
+    display: flex;
     width: 100%;
-    height: 60vh;
+    
+}
+.evenProject .projectContent{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.projectContent img{
+    width: 45%;
+    height: 60%;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+.projectContent p{
+    padding: 10px;   
+}
+.projectTextLinks{
+    width: 55%;
 }
 .projectGalleryContainer{
     margin: 20px 0;
@@ -220,7 +231,7 @@ a.projectGalLink:hover, .siteLink:hover, .projectLink:hover, .projectSkip:hover{
     margin: 20px auto;
     padding: 15px;
     text-align: center;
-    width: 30%;
+    width: 70%;
 
 }
 /*RESUME*/
