@@ -206,8 +206,9 @@ a.projectGalLink:hover, .siteLink:hover, .projectLink:hover, .projectSkip:hover{
     flex-direction: row-reverse;
 }
 .projectContent img{
+    align-self: center;
     width: 45%;
-    height: 60%;
+    height: 50%;
     object-fit: cover;
     margin: 10px;
     border-radius: 10px;
