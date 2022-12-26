@@ -52,11 +52,12 @@ nav ul{
 nav ul li{
     padding: 10px;
 }
-nav a{
+nav a, .pageBtns, .siteBtn{
     text-decoration: none;
     color: white;
     padding: 10px;
     border-radius: 10px;
+    font-family: 'Bebas Neue', cursive;
 }
 nav a:hover{
     background-color: lightblue;
@@ -102,7 +103,7 @@ div.header{
     font-family: 'Prosto One', cursive;
     background-image: url(https://images.unsplash.com/photo-1483401757487-2ced3fa77952?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80);
 }
-h1{
+h1, .siteHdr{
     font-family: 'Prosto One', cursive;
 }
 /*fonts*/
