@@ -126,6 +126,7 @@ h1, .siteHdr{
     width: 100%;
     justify-content: center;
     line-height: 1.4em;
+    margin-top: 30px;
 }
 .blurb{
     display: flex;
