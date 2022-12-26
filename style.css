@@ -1,7 +1,7 @@
 /*testing area*/
 
 /*testing area*/
-@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Work+Sans&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -98,6 +98,10 @@ div.header{
 }
 h1{
     font-family: 'Prosto One', cursive;
+}
+/*fonts*/
+.siteText{
+    font-family: 'Work Sans', sans-serif;
 }
 /*home page specific styling*/
 /*styling self-intro portion*/
