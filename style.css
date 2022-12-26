@@ -86,11 +86,12 @@ footer{
     padding: 20px 20px;
     display: flex;
     justify-content: center;
-    background-color:rgb(218, 175, 240);
-    color: rgb(0, 0, 0);
+    background: rgb(86,11,193);
+    background: linear-gradient(135deg, rgba(86,11,193,1) 26%, rgba(144,37,171,1) 46%, rgba(131,82,196,1) 85%, rgba(226,138,249,1) 100%); 
+    color: rgb(255, 255, 255);
 }
 footer a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 /*all header styling*/
 div.header{
