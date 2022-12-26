@@ -1,6 +1,7 @@
 /*testing area*/
 
 /*testing area*/
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -90,8 +91,13 @@ footer a{
 }
 /*all header styling*/
 div.header{
-    font-size: 15rem;
+    font-size: 10rem;
+    padding-top: 20px;
     padding-bottom: 30px;
+    font-family: 'Prosto One', cursive;
+}
+h1{
+    font-family: 'Prosto One', cursive;
 }
 /*home page specific styling*/
 /*styling self-intro portion*/
