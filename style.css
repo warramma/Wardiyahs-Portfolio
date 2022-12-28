@@ -60,6 +60,9 @@ nav a, .pageBtns, .siteBtn, .siteLink, .projectLink{
     border-radius: 10px;
     font-family: 'Bebas Neue', cursive;
 }
+.siteBtn, .siteLink, .pageBtns{
+    letter-spacing: .3rem;
+}
 #myBtn{
     font-family: 'Bebas Neue', cursive;
     color: black;
@@ -115,6 +118,8 @@ div.header{
 }
 h1, .siteHdr{
     font-family: 'Prosto One', cursive;
+    padding: 30px 0px;
+    text-align: center;
 }
 /*fonts*/
 .siteText{
