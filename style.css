@@ -207,65 +207,13 @@ h1, .siteHdr{
 .socials a{
     margin: 0 15px;
 }
-/*PROJECT page specific*/
+/*PROJECT page  and journey specific*/
 /*project gallery section specific*/
 #more {display: none;}
 .projectIntro p, .projectJourney p{
     text-indent: 2em;
     line-height: 1.5em;
-}
-a.projectGalLink, .siteLink, .projectLink, .projectSkip{
-    color: white;
-    display: block;
-    margin: 20px auto;
-    padding: 20px 0;
-    text-align: center;
-    text-decoration: none;
-    background-color:rgb(58, 129, 200);
-    width: 50%;
-    border-radius: 15px;
-    border: 1px solid white;
-}
-a.projectGalLink:hover, .siteLink:hover, .projectLink:hover, .projectSkip:hover{
-    color: white;
-    background-color:rgb(19, 19, 203);
-}
-.projectContent{
-    display: flex;
-    width: 100%;
-}
-.evenProject .projectContent{
-    display: flex;
-    flex-direction: row-reverse;
-}
-.projectContent img{
-    align-self: center;
-    width: 45%;
-    height: 50%;
-    object-fit: cover;
-    margin: 10px;
-    border-radius: 10px;
-}
-.projectContent p{
-    padding: 10px; 
-}
-.projectTextLinks{
-    width: 55%;
-}
-.projectGalleryContainer{
-    margin: 10px 0;
-}
-.projectGalleryContainer p{
-    text-indent: 2em;
-    line-height: 1.2em;
-}
-.siteLink, .projectLink{
-    display: block;
-    margin: 20px auto;
-    padding: 15px;
-    text-align: center;
-    width: 70%;
-
+    padding: 15px 0px;
 }
 /*gallery background colors*/
 
