@@ -215,6 +215,44 @@ h1, .siteHdr{
     line-height: 1.5em;
     padding: 15px 0px;
 }
+.projectSlide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.projectContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.projectDescription{
+    width: 60%;
+    margin: 10px;
+}
+.projectImg img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 50px;
+}
+div.slideBtns{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+button.lastProject{
+    /*justify-self: flex-end;*/
+    color: blue;
+}
+button.nextProject{
+    /*justify-self: flext-start;*/
+    color: blue;
+}
+
 /*gallery background colors*/
 
 /*RESUME*/
